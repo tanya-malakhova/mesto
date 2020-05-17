@@ -1,0 +1,26 @@
+.popup__save {
+    width: 358px;
+    height: 50px;
+    margin: 48px auto 0 auto;
+    background-color: #000000;
+    border: 0;
+    border-radius: 2px;
+}
+.popup__save[value="Сохранить"] {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .popup__save {
+        width: 250px;
+        height: 30px;
+        margin: 30px auto 0 auto;
+    }
+    .popup__save[value="Сохранить"] {
+        font-size: 15px;
+    }
+}

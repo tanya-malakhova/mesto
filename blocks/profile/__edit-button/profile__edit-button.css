@@ -1,0 +1,17 @@
+.profile__edit-button {
+    background-repeat: no-repeat;
+    margin: auto auto 12px 17px;
+    max-width: 24px;
+}
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .profile__edit-button {
+        max-width: 21px;
+        margin: auto auto 7px 17px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .profile__edit-button {
+        max-width: 18px;
+        margin: auto auto 17px 5px;
+    }
+}
