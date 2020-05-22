@@ -1,5 +1,3 @@
-@import url('./_button/popup__container_button.css');
-@import url('./_heading/popup__container_heading.css');
 .popup__container {
     max-width: 430px;
     background-color: #FFFFFF;

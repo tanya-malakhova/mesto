@@ -1,6 +1,6 @@
 const body = document.querySelector('.root');
 const editButton = body.querySelector('.profile__edit-button');
-const closeButton = body.querySelector('.popup__close');
+const closeButton = body.querySelector('.popup__close-button');
 const profileName = body.querySelector('.profile__name');
 const profileStatus = body.querySelector('.profile__status');
 const popupName = body.querySelector('.popup__input_name');
@@ -9,21 +9,17 @@ const popup = body.querySelector('.popup');
 const saveButton = body.querySelector('.popup__save');
 
 
-
+//Функция открытия формы для редактирования профайла
 function editProfile() {
-    popup.classList.remove('popup_opened');
+    popup.classList.remove('popup_close');
     popupName.value = profileName.textContent;
     popupStatus.value = profileStatus.textContent;
 }
-
-editButton.addEventListener('click', editProfile);
-
+//Функция закрытия формы через крестик
 function closePopup() {
-    popup.classList.add('popup_opened');
-}
-
-closeButton.addEventListener('click', closePopup);
-
+    popup.classList.add('popup_close');
+} 
+//Функция сохранения изменений и закрытия формы
 function formSubmitHandler(evt) {
     evt.preventDefault(); 
 
@@ -33,4 +29,8 @@ function formSubmitHandler(evt) {
     closePopup()
 }
 
-saveButton.addEventListener('click', formSubmitHandler);
+editButton.addEventListener('click', editProfile);
+
+closeButton.addEventListener('click', closePopup);
+
+saveButton.addEventListener('submit', formSubmitHandler);

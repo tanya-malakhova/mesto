@@ -21,7 +21,6 @@
     .profile {
         margin: 42px auto 0 auto;
         max-width: 282px;
-        display: flex;
         flex-direction: column;
         align-items: center;
     }

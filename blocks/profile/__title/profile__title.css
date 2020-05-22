@@ -9,4 +9,8 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    text-overflow: ellipsis; 
+    max-width: 500px; 
+    overflow: hidden; 
+    white-space: nowrap;
 }

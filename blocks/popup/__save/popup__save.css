@@ -5,8 +5,6 @@
     background-color: #000000;
     border: 0;
     border-radius: 2px;
-}
-.popup__save[value="Сохранить"] {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -14,13 +12,14 @@
     text-align: center;
     color: #FFFFFF;
 }
+button.popup__save:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 @media screen and (min-width: 300px) and (max-width: 700px) {
     .popup__save {
         width: 250px;
         height: 30px;
         margin: 30px auto 0 auto;
-    }
-    .popup__save[value="Сохранить"] {
         font-size: 15px;
     }
 }
