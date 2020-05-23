@@ -7,6 +7,7 @@ const popupName = body.querySelector('.popup__input_name');
 const popupStatus = body.querySelector('.popup__input_status');
 const popup = body.querySelector('.popup');
 const saveButton = body.querySelector('.popup__save');
+const popupForm = body.querySelector('.popup__container');
 
 
 //Функция открытия формы для редактирования профайла
@@ -33,4 +34,4 @@ editButton.addEventListener('click', editProfile);
 
 closeButton.addEventListener('click', closePopup);
 
-saveButton.addEventListener('submit', formSubmitHandler);
+popupForm.addEventListener('submit', formSubmitHandler);

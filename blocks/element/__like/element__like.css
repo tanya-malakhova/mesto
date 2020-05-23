@@ -9,3 +9,6 @@
     background-position: center;
     background-size: 22px;
 }
+.element__like:hover {
+    opacity: 0.6;
+}

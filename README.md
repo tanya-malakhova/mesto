@@ -25,4 +25,4 @@
 * JS
 
 **Ссылка на страницу проекта**
-
+https://tanya-malakhova.github.io/mesto/index.html

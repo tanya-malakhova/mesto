@@ -11,7 +11,7 @@
     background-position: center;
     background-size: 43px;
 }
-button.popup__close-button:hover {
+.popup__close-button:hover {
     opacity: 0.6;
 }
 @media screen and (min-width: 300px) and (max-width: 700px) {
