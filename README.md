@@ -26,7 +26,3 @@
 
 **Ссылка на страницу проекта**
 https://tanya-malakhova.github.io/mesto/index.html
-<<<<<<< HEAD
-=======
-
->>>>>>> 28655614fb680589fafaf2e20355b190fab8a9eb
